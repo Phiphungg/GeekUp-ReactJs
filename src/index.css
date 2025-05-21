@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.left-line {
+  @apply relative pl-4 before:absolute before:left-0 before:h-[22px] before:w-[1px] before:bg-gray-200;
+}
