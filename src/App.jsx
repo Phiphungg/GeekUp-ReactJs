@@ -2,9 +2,9 @@ import React from "react";
 import Sidebar from "./albums/Sidebar";
 import User from "./Users/User";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
-import Content from "./pages/content/Content";
 import ShowAlbum from "./pages/content/ShowAlbum";
 import ShowUser from "./pages/content/ShowUser";
+import Content from "./pages/content/Content";
 
 function App() {
   return (
